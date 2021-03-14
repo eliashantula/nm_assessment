@@ -1,0 +1,29 @@
+{
+  "name": "nm_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliashantula/nm_assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliashantula/nm_assessment/issues"
+  },
+  "homepage": "https://github.com/eliashantula/nm_assessment#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.1.2",
+    "@wdio/local-runner": "^7.1.2",
+    "@wdio/mocha-framework": "^7.1.2",
+    "@wdio/spec-reporter": "^7.1.1",
+    "@wdio/sync": "^7.1.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
