@@ -1,1 +1,0 @@
-'https://jsonplaceholder.typhiholder.com'
