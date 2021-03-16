@@ -25,7 +25,10 @@ npm install
 ## Run tests
 
 ```sh
-npm run test
+npm run test 
+
+For headless:
+npm run test1  
 ```
 
 ## Author
