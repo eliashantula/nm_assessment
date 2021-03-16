@@ -46,12 +46,11 @@ addItem(element) {
 
 
 remainingItems() {
-return this.inventoryItems.filter((item, i) => {
-
-				return (
-					item.$(".btn_inventory").getText() === "ADD TO CART"
-				);
+return this.inventoryItems.filter((item) => {  
+					 return item.$('.btn_inventory').getText() === "ADD TO CART"
+				
 			});
+
 
 
 

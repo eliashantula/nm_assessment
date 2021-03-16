@@ -62,13 +62,7 @@ describe("Saucelabs Testcase", function () {
 
 	it("should add another item", () => {
 		const oldCartCount = parseInt(CartPage.cartCount);
-		const availableItems = InventoryPage.inventoryItems.filter((item, i) => {
-				return (
-					item.$(".pricebar > .btn_inventory").getText() ===
-					"ADD TO CART"
-				);
-			})
-
+		const availableItems = InventoryPage.remainingItems()
 		InventoryPage.addItem(availableItems[0])
 		selectedItems.push(
 			InventoryPage.itemName(availableItems[0]).getText()
