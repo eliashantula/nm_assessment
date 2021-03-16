@@ -53,4 +53,18 @@ Copyright © 2021 [Elias Hantula](https://github.com/eliashantula).<br />
 This project is [ISC](https://github.com/eliashantula/nm_assessment/blob/master/LICENSE) licensed.
 
 ***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
